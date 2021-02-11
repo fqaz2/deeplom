@@ -1,0 +1,53 @@
+.aagcw{
+	background: #fff;
+
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.aagcw img{
+	max-height: 100%;
+	width: 100%;
+	display: block;
+}
+@media (min-width: 1280px) {
+	.aagcw .wrapper{display: flex;}
+}
+.aagcw .wrapper{
+	max-width: 1300px;
+	margin: auto;
+	padding: 50px 0;
+}
+@media (min-width: 700px) {
+	.aagcw .block{display: flex;}
+}
+@media (max-width: 700px) {
+	.aagcw img{margin: auto;}
+}
+.aagcw .block{
+	padding: 0 10px;
+}
+.aagcw .img{
+	width: 100%;
+}
+.aagcw .text{
+	width: 100%;
+	padding: 20px;
+	color: #3f485d;
+}
+.aagcw .text1{
+	margin: 20px 0;
+}
+.aagcw a.knopka {
+	display: inline-block;
+	text-align: center;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #009900; /* фон кнопки */
+  padding: 5px 30px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+} 
+.aagcw a.knopka:hover {background-color: #666;
+    color: #fff;} /* при наведении курсора мышки */

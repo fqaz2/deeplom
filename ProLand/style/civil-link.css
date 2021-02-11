@@ -1,0 +1,25 @@
+.civil-link{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 120px 10px;
+    background-image: url(/img/14089.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: inherit;
+}
+.civil-link .wrapper{
+	max-width: 1300px;
+	margin: auto;
+	align-items: center;
+}
+.civil-link h1{
+	color: #fff;
+}
+.civil-link .text{
+	color: #fff;
+	opacity: 0.7;
+}

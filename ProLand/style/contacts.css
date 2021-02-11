@@ -1,0 +1,98 @@
+.contacts{
+  background: #fff;
+
+  font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.contacts .line{
+  background: #f5f7f8;
+  padding: 90px;
+}
+.contacts img{
+  display: block;
+  padding: 20px;
+  width: 100%;
+  max-height: 405px;
+  object-fit: cover;
+}
+@media (min-width: 840px) {
+  .contacts .wrapper{
+  display: flex;
+}
+  
+}
+.contacts .wrapper{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 10px;
+  padding-bottom: 50px;
+
+  align-items: center;
+}
+.contacts .conteiner{
+  position: relative;
+  max-height: 405px;
+  margin-top: -70px;
+  width: 100%;
+}    
+.contacts h2{
+  color: #06163a;
+      font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.contacts h2::before{
+  content: " ";
+  margin-top: 40px;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  background: #090;
+}
+.contacts h2::after{
+  content: " ";
+  margin-top: 40px;
+  margin-left: -200px;
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  background: #cacaca;
+}
+.contacts .text{
+  color: #666;
+  font-size: 16px;
+}
+.contacts a.knopka {
+  margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #009900; /* фон кнопки */
+  padding: 10px 30px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+
+  font-size: 1rem;
+    text-transform: inherit;
+} 
+.contacts a.knopka:hover {background-color: #666;
+    color: #fff;} /* при наведении курсора мышки */
+
+.contacts .text{
+  display: flex;
+  flex-wrap: wrap;
+}
+.contacts h3{
+  margin-top: 0px;
+  color: #333;
+  font-size: 26px;
+}
+.contacts .content{
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+
+}

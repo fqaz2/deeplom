@@ -1,0 +1,50 @@
+.certificates{
+	background: #fff;
+	padding: 40px 10px;
+
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.certificates .wrapper{
+	margin: auto;
+	max-width: 1300px;
+}
+.certificates h2{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.certificates h2::before{
+  content: " ";
+  margin-top: 40px;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  background: #090;
+}
+.certificates h2::after{
+  content: " ";
+  margin-top: 40px;
+  margin-left: -10px;
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  background: #cacaca;
+}
+.certificates .conteiner{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.certificates .content{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.certificates img{
+	display: block;
+	max-width: 100px;
+	object-fit: contain;
+}

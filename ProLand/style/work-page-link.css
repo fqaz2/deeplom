@@ -1,0 +1,25 @@
+.work-page-link{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 120px 10px;
+    background-image: url(/img/work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: inherit;
+}
+.work-page-link .wrapper{
+	max-width: 1300px;
+	margin: auto;
+	align-items: center;
+}
+.work-page-link h1{
+	color: #fff;
+}
+.work-page-link .text{
+	color: #fff;
+	opacity: 0.7;
+}

@@ -1,0 +1,25 @@
+.contacts-link{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 120px 10px;
+    background-image: url(/img/header_contact1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: inherit;
+}
+.contacts-link .wrapper{
+	max-width: 1300px;
+	margin: auto;
+	align-items: center;
+}
+.contacts-link h1{
+	color: #fff;
+}
+.contacts-link .text{
+	color: #fff;
+	opacity: 0.7;
+}

@@ -1,0 +1,42 @@
+.professionals
+{
+	background: #009900;
+	padding: 50px 0;
+}
+@media (min-width: 600px) {
+	.professionals .wrapper{display: flex;}
+}
+.professionals .wrapper
+{
+	max-width: 1300px;
+	margin: auto;
+	
+	align-items: center;
+	justify-content: space-between;
+}
+.professionals .text{
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+
+
+}
+.professionals h2{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.professionals a.knopka{
+	margin: 10px 10px;
+	text-align: center;
+	display: block;
+	  color: #666; /* цвет текста */
+	  text-decoration: none; /* убирать подчёркивание у ссылок */
+	  user-select: none; /* убирать выделение текста */
+	  background: #fff; /* фон кнопки */
+	  padding: .7em 1.5em; /* отступ от текста */
+	  outline: none; /* убирать контур в Mozilla */
+	} 
+.professionals a.knopka:hover {background-color: #666; color: #fff; } /* при наведении курсора мышки */
+.professionals a.knopka:active { background: rgb(152,15,0); } /* при нажатии */

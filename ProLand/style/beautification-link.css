@@ -1,0 +1,25 @@
+.beautification-link{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 120px 10px;
+    background-image: url(/img/header_landscape1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: inherit;
+}
+.beautification-link .wrapper{
+	max-width: 1300px;
+	margin: auto;
+	align-items: center;
+}
+.beautification-link h1{
+	color: #fff;
+}
+.beautification-link .text{
+	color: #fff;
+	opacity: 0.7;
+}

@@ -1,0 +1,92 @@
+.news-module{
+	background: #ddd;
+	padding: 40px 10px;
+
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.news-module .wrapper{
+	margin: auto;
+	max-width: 1300px;
+}
+.news-module .line{
+	display: flex;
+	justify-content: space-between;
+}
+
+.news-module h2{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.news-module h2::before{
+  content: " ";
+  margin-top: 40px;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  background: #090;
+}
+.news-module h2::after{
+  content: " ";
+  margin-top: 40px;
+  margin-left: -63px;
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  background: #cacaca;
+}
+.news-module a.knopka{
+	font-size: 16px;
+	margin: 10px 10px;
+	text-align: center;
+	display: block;
+	  color: #666; /* цвет текста */
+	  text-decoration: none; /* убирать подчёркивание у ссылок */
+	  user-select: none; /* убирать выделение текста */
+	  background: #fff; /* фон кнопки */
+	  padding: .7em 1.5em; /* отступ от текста */
+	  outline: none; /* убирать контур в Mozilla */
+	} 
+.news-module a.knopka:hover {background-color: #009900; color: #fff; } /* при наведении курсора мышки */
+
+.news-module .conteiner{
+	display: flex;
+}
+.news-module .content{
+	max-width: 300px;
+	background: #fff;
+	padding: 20px;
+	margin-left: 10px;
+}
+.news-module .h, .news-module .text{
+	line-height: initial;
+    font-weight: 500 !important;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+}
+.news-module .h{
+	margin: 20px 0;
+	font-size: 1.2rem;
+}
+.news-module .h a:hover , a {
+    color: #222;
+    text-decoration: inherit;
+}
+.news-module .h a:hover{
+	transition: 0.4s;
+	color: #888;
+	}
+.news-module .text{
+	    color: #666;
+	    margin: 10px 0;
+}
+.news-module .a a{
+	font-size: 16px;
+	color: #55b96b;
+}
+.news-module .a a:hover{
+	color: #55dd6b;
+}

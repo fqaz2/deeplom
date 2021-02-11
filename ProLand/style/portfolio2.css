@@ -1,0 +1,62 @@
+.portfolio{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+	
+	padding: 40px 10px;
+    background: #f3f7f9
+}
+.portfolio .img{
+	padding: 20px;
+}
+.portfolio img{
+	display: block;
+	width: 100%;
+}
+.portfolio .wrapper{
+	max-width: 1300px;
+	margin: auto;
+	
+}
+.portfolio .row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+.portfolio .conteiner{
+	width: 500px;
+	background: #fff;
+	margin: 10px;
+}
+.portfolio .content{
+	padding: 30px;
+	width: 350px;
+	margin: -100px 0 0 auto;
+	position: relative;
+	background: #fff;
+}
+.portfolio h1{
+	color: #333333;
+}
+.portfolio .text{
+	color: #3f485d;
+	    font-size: 16px;;
+	margin: 20px 0;
+}
+.portfolio a.knopka{
+	font-size: 16px;
+	margin: 10px 10px;
+	text-align: center;
+	display: block;
+	  color: #fff; /* цвет текста */
+	  text-decoration: none; /* убирать подчёркивание у ссылок */
+	  user-select: none; /* убирать выделение текста */
+	  background: #009900; /* фон кнопки */
+	  padding: .7em 1.5em; /* отступ от текста */
+	  outline: none; /* убирать контур в Mozilla */
+
+	transition: 0.3s;
+	} 
+.portfolio a.knopka:hover {background-color: #666; color: #fff; }

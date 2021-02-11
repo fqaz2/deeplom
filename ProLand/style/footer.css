@@ -1,0 +1,28 @@
+.footer{
+	background: #666;
+	padding: 40px 10px;
+
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer .wrapper{
+	max-width: 1300px;
+	margin: auto;
+}
+.footer .conteiner{
+	display: flex;
+}
+.footer .content{
+	width: 100%;
+	padding: 20px;
+}
+.footer a{
+	color: #c4c4c4;
+	transition: 0.5s;
+}
+.footer a:hover{
+	color: #fff;
+}

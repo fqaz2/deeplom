@@ -1,0 +1,31 @@
+.about-us-text{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+@media (min-width: 1200px) {
+	.about-us-text .row{
+		display: flex;
+	}
+}
+@media (min-width: 770px) {
+	.about-us-text .row-1{
+		display: flex;
+		width: 100%
+	}
+}
+.about-us-text .content{
+	width: 100%;
+}
+.about-us-text img{
+	display: block;
+	width: 100%;
+}
+.about-us-text .text{
+	padding: 20px;
+	color: #3f485d;
+}
+.about-us-text h2{
+	color: #333333;
+}

@@ -1,0 +1,42 @@
+.services{
+	font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.services .wrapper{
+	padding: 45px 0;
+	margin: auto;
+	max-width: 1300px;
+}
+.services img{
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	max-width: 100px;
+	margin: auto;
+}
+.services .conteiner{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 45px 0;
+	justify-content: space-between;
+}
+.services .text{
+	color: #3f485d;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.services .content{
+	padding: 10px;
+	margin: auto;
+	width: 410px;
+	display: flex;
+	align-items: center;
+}
+.services .content .text
+{
+	width: 100%;
+	font-size: 20px;
+	padding: 10px;
+}
